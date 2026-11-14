@@ -1,0 +1,13 @@
+{
+  "id": "butter-yellow",
+  "name": "奶油黄",
+  "mood": ["日常", "轻松", "自嘲", "第一条"],
+  "colors": {
+    "background": "#E3E582",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#FFF35F",
+    "muted": "#8A8A8A",
+    "accent": "#E3E582"
+  }
+}

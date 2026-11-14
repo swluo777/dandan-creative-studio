@@ -1,0 +1,13 @@
+{
+  "id": "mint-green",
+  "name": "薄荷绿",
+  "mood": ["清新", "生活", "治愈", "放松"],
+  "colors": {
+    "background": "#CDE8D6",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#9DEFC0",
+    "muted": "#8A8A8A",
+    "accent": "#CDE8D6"
+  }
+}

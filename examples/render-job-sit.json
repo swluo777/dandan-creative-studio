@@ -1,0 +1,6 @@
+{
+  "job_id": "demo-render-sit",
+  "source": "plugin-example",
+  "idempotency_key": "demo-render-sit",
+  "plan_path": "pose-sit-bottom.json"
+}

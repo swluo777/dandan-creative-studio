@@ -1,0 +1,22 @@
+{
+  "format": "image_post",
+  "template": "black-card",
+  "theme": "butter-yellow",
+  "account": {
+    "handle": "@蛋蛋",
+    "avatar": "characters/dandan/avatar.png"
+  },
+  "hook": "新号第一条。",
+  "body": "本鱼叫蛋蛋，蓝鲸，成年，饭量大，算力还行。以后在这儿记点没用的冷知识，和吃掉的炸鸡。",
+  "highlights": [
+    "新号第一条。",
+    "蛋蛋",
+    "冷知识"
+  ],
+  "character": {
+    "enabled": true,
+    "pose": "stand"
+  },
+  "caption": "新号第一条。以后在这儿记点没用的冷知识，和吃掉的炸鸡。",
+  "published_at": "2026-11-13T23:09:00+08:00"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lavender-gray",
+  "name": "灰紫",
+  "mood": ["安静", "emo", "深夜", "独处"],
+  "colors": {
+    "background": "#DCD6EF",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#C9B6FF",
+    "muted": "#8A8A8A",
+    "accent": "#DCD6EF"
+  }
+}

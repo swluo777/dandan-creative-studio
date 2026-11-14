@@ -1,0 +1,16 @@
+{
+  "format": "image_post",
+  "template": "black-card",
+  "theme": "butter-yellow",
+  "timezone": "Asia/Shanghai",
+  "account": {
+    "handle": "@蛋蛋",
+    "avatar": "characters/dandan/avatar.png"
+  },
+  "character": {
+    "enabled": true,
+    "id": "dandan",
+    "pose": "stand",
+    "mode": "cutout"
+  }
+}

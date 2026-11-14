@@ -1,0 +1,23 @@
+{
+  "id": "pose-peek-right",
+  "format": "image_post",
+  "template": "black-card",
+  "theme": "butter-yellow",
+  "account": {
+    "handle": "@蛋蛋",
+    "avatar": "characters/dandan/avatar.png"
+  },
+  "hook": "从右边探头。",
+  "body": "今天不聊冷知识，就看看谁在偷看。",
+  "highlights": [
+    "从右边探头。",
+    "偷看"
+  ],
+  "character": {
+    "enabled": true,
+    "pose": "peek-right",
+    "placement": "right-edge"
+  },
+  "caption": "从右边探头。今天不聊冷知识，就看看谁在偷看。",
+  "published_at": "2026-11-13T23:09:00+08:00"
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "black-card image post plan",
+  "type": "object",
+  "required": ["body"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "任务/产物 id，用于输出文件名"
+    },
+    "preset": {
+      "type": "string",
+      "description": "可选预设 id；preset 提供默认值，plan 里的同名字段覆盖它"
+    },
+    "format": {
+      "const": "image_post"
+    },
+    "template": {
+      "const": "black-card"
+    },
+    "theme": {
+      "type": "string",
+      "description": "配色主题 id，例如 butter-yellow / sakura-pink / mist-blue；缺省用模板默认"
+    },
+    "colors": {
+      "type": "object",
+      "description": "自定义颜色覆盖 theme；只传要改的键",
+      "properties": {
+        "background": {"type": "string"},
+        "card": {"type": "string"},
+        "text": {"type": "string"},
+        "highlight": {"type": "string"},
+        "muted": {"type": "string"},
+        "accent": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "timezone": {
+      "type": "string",
+      "description": "IANA 时区名，默认 Asia/Shanghai"
+    },
+    "account": {
+      "type": "object",
+      "properties": {
+        "handle": {"type": "string"},
+        "avatar": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "hook": {
+      "type": "string",
+      "description": "第一句，作为正文精确前缀"
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "highlights": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 10
+      },
+      "description": "必须是 hook+body 的精确子串；不能重叠或相邻"
+    },
+    "character": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "id": {"type": "string", "description": "角色注册表 id，例如 dandan"},
+        "pose": {"type": "string", "description": "poses 键：stand / wave / sit / peek-left / peek-right"},
+        "placement": {
+          "type": "string",
+          "enum": ["bottom-right", "left-edge", "right-edge"],
+          "description": "角色放置位；缺省用模板默认 bottom-right"
+        },
+        "anchor": {"type": "string", "description": "高级覆盖：top-left / top-right / bottom-right / bottom-left / center"},
+        "cutEdge": {"type": "string", "enum": ["none", "left", "right"], "description": "高级覆盖：切割边；一般由 poseMeta 提供"},
+        "image": {"type": "string", "description": "显式素材路径，优先级最高"},
+        "mode": {"type": "string", "enum": ["cutout", "sticker"]}
+      },
+      "additionalProperties": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "published_at": {
+      "type": "string",
+      "description": "ISO 8601；缺省则用渲染时刻"
+    },
+    "display_time": {
+      "type": "object",
+      "description": "可选显示文案覆盖；不传则由 published_at/当前时间推导",
+      "properties": {
+        "date": {"type": "string"},
+        "time": {"type": "string"},
+        "weekday": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

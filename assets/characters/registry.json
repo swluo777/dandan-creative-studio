@@ -1,0 +1,28 @@
+{
+  "dandan": {
+    "name": "蛋蛋",
+    "avatar": "characters/dandan/avatar.png",
+    "poses": {
+      "stand": "characters/dandan/poses/stand.png",
+      "wave": "characters/dandan/poses/wave.png",
+      "sit": "characters/dandan/poses/sit.png",
+      "peek-left": "characters/dandan/poses/peek-left.png",
+      "peek-right": "characters/dandan/poses/peek-right.png"
+    },
+    "poseMeta": {
+      "wave": {
+        "height": 360
+      },
+      "sit": {
+        "height": 330
+      },
+      "peek-left": {
+        "cutEdge": "left"
+      },
+      "peek-right": {
+        "cutEdge": "right"
+      }
+    },
+    "sticker": "characters/dandan/sticker.png"
+  }
+}

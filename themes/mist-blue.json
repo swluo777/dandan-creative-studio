@@ -1,0 +1,13 @@
+{
+  "id": "mist-blue",
+  "name": "雾霾蓝",
+  "mood": ["冷静", "技术", "思考", "夜晚"],
+  "colors": {
+    "background": "#C9DCEF",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#8FD1FF",
+    "muted": "#8A8A8A",
+    "accent": "#C9DCEF"
+  }
+}

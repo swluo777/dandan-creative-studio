@@ -1,0 +1,13 @@
+{
+  "id": "sakura-pink",
+  "name": "樱花粉",
+  "mood": ["可爱", "撒娇", "心情好", "被夸"],
+  "colors": {
+    "background": "#F3C9D4",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#FFA3B8",
+    "muted": "#8A8A8A",
+    "accent": "#F3C9D4"
+  }
+}

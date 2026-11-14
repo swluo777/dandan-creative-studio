@@ -1,0 +1,23 @@
+{
+  "id": "pose-sit-bottom",
+  "format": "image_post",
+  "template": "black-card",
+  "theme": "butter-yellow",
+  "account": {
+    "handle": "@蛋蛋",
+    "avatar": "characters/dandan/avatar.png"
+  },
+  "hook": "坐一会儿。",
+  "body": "今天不聊冷知识，就坐下来看看谁在偷看。",
+  "highlights": [
+    "坐一会儿。",
+    "偷看"
+  ],
+  "character": {
+    "enabled": true,
+    "pose": "sit",
+    "placement": "bottom-right"
+  },
+  "caption": "坐一会儿。今天不聊冷知识，就坐下来看看谁在偷看。",
+  "published_at": "2026-11-13T23:09:00+08:00"
+}

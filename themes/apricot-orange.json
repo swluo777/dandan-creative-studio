@@ -1,0 +1,13 @@
+{
+  "id": "apricot-orange",
+  "name": "杏橙",
+  "mood": ["食欲", "炸鸡", "热闹", "开心"],
+  "colors": {
+    "background": "#F4D2AE",
+    "card": "#000000",
+    "text": "#FFFFFF",
+    "highlight": "#FFB25F",
+    "muted": "#8A8A8A",
+    "accent": "#F4D2AE"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "preset": "dandan-with-character",
+  "theme": "mist-blue",
+  "account": {
+    "handle": "@测试号",
+    "avatar": "characters/dandan/avatar.png"
+  },
+  "hook": "换参数了。",
+  "body": "同一个模板，昵称、颜色、时间、角色都能换。",
+  "highlights": [
+    "换参数了。",
+    "昵称",
+    "时间"
+  ],
+  "caption": "同一个模板，换一套参数就是另一张图。",
+  "published_at": "2026-11-14T20:30:00+08:00",
+  "display_time": {
+    "date": "11-14",
+    "time": "20:30",
+    "weekday": "Saturday"
+  }
+}
